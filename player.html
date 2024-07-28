@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="player.css"/>
+</head>
+<body id="body">
+    <main id="main">
+        <header>
+            <img src="aiden.jpg"/>
+            <h2>liquid smooth</h2>
+            <p id="p">radio 1</p>
+        </header> 
+        <div id="div">
+            <article id="buttons">
+                <img src="back.jpg" id="back"/>
+                <img src="play.png" id="play"/>
+                <img src="next.png" id="next"/>
+                <audio id="audio" src="music.m4a"></audio>
+            </article>
+            <article id="volume">
+                <h2>sound</h2>
+                <input type="range" id="volume_id"/>
+                <h2>speed</h2>
+                <input type="range" id="volume_speed" max="200" min="0"/>
+            </article>
+            <article id="color">
+                <!-- <input id="color1" type="color"> -->
+                 <button id="color1"></button>
+                 <button id="color2"></button>
+                 <button id="color3"></button>
+                 <button id="color4"></button>
+            </article>
+        </div>
+        <!-- <a href="player1.html" id="link" style="text-decoration:none; color:black;">>></a> -->
+    </main>
+    <script src="volume.js"></script>
+    <script src="player.js"></script>
+    <script src="color.js"></script>
+</body>
+</html>
